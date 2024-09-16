@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 let morgan = require('morgan');
 let dotenv = require('dotenv');
 dotenv.config();
-let port = process.env.PORT || 10000;
+let port = process.env.PORT || 9870;
 const hostname = 'localhost';
 let cors = require('cors');
 let bodyParser = require('body-parser');
